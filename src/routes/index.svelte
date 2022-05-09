@@ -1,18 +1,37 @@
 <script>
+	import { onMount } from 'svelte';
+	import { fly } from 'svelte/transition';
 	import Typewriter from 'svelte-typewriter';
+	import Rain from '$lib/components/rain.svelte';
+
+	let loaded = false;
+	let end = false;
+
+	// onMount set loaded to true
+	onMount(() => {
+		loaded = true;
+	});
+	// set delay 12 seconds to change end to true
+	setTimeout(() => {
+		end = true;
+	}, 8 * 1000);
 </script>
 
 <svelte:head>
 	<title>อยากได้ Keychron Q2</title>
 </svelte:head>
 
-<div class="flex bg-slate-800 w-full h-screen items-center justify-center">
-	<Typewriter interval={10} cascade>
-		<h1 class="inline text-white text-3xl sm:text-6xl">ผมอยากได้คีย์บอร์ด</h1>
-		<span class="inline text-orange-500 text-3xl sm:text-6xl">Keychron </span>
-		<span class="inline text-blue-500 text-3xl sm:text-6xl">Q2 </span>
-		<span class="inline text-white text-3xl sm:text-6xl">เพราะ </span>
+<div class="flex flex-col bg-slate-800 w-full h-screen items-center justify-center">
+	{#if loaded}
+		<div
+			in:fly={{ x: 500, y: 100, duration: 1000, delay: 0 }}
+			class="flex text-orange-500 text-6xl"
+		>
+			ผมอยากได้คีย์บอร์ด Keychron <span class="text-blue-400"> Q2 </span> เพราะ
+		</div>
+	{/if}
 
+	<Typewriter interval={10} cascade>
 		<div class="flex flex-row">
 			<ul class="mt-5 text-xs sm:text-lg flex-1">
 				<li class="text-green-500">✅มีการ lube มาให้แล้ว ทำให้เสียงดีโดยไม่ต้องทำอะไรเลย</li>
@@ -38,10 +57,13 @@
 				<li class="text-green-500">✅ทุกสีสวยหมดเลย</li>
 				<li class="text-green-500">✅แต่ผมชอบ Navy Blue มากที่สุด</li>
 				<li class="text-green-500">✅อยากได้</li>
-				<li class="text-green-500">✅อยากได้ อยากได้</li>
+				<li class="text-green-500">✅อยากได้</li>
+				<li class="text-green-500">✅อยากได้</li>
+				<li class="text-green-500">✅ของเค้าดีจริงงงงงงงง</li>
 			</ul>
 		</div>
-		<h1 class="text-6xl text-white">เพราะฉะนั้นผมขอนะฮะ อยากได้มากๆ</h1>
-		<span class="inline text-pink-500 text-3xl sm:text-6xl">รักนะจุ๊บๆ 💖</span>
 	</Typewriter>
+	{#if end}
+		<Rain />
+	{/if}
 </div>
