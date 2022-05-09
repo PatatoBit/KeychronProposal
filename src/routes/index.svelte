@@ -2,6 +2,10 @@
 	import Typewriter from 'svelte-typewriter';
 </script>
 
+<svelte:head>
+	<title>อยากได้ Keychron Q2</title>
+</svelte:head>
+
 <div class="flex bg-slate-800 w-full h-screen items-center justify-center">
 	<Typewriter interval={10} cascade>
 		<h1 class="inline text-white text-3xl sm:text-6xl">ผมอยากได้คีย์บอร์ด</h1>
