@@ -11,8 +11,6 @@
 		<h1 class="inline text-white text-3xl sm:text-6xl">ผมอยากได้คีย์บอร์ด</h1>
 		<span class="inline text-orange-500 text-3xl sm:text-6xl">Keychron </span>
 		<span class="inline text-blue-500 text-3xl sm:text-6xl">Q2 </span>
-		<span class="inline text-white text-3xl sm:text-6xl">หรือ </span>
-		<span class="inline text-yellow-500 text-3xl sm:text-6xl">Q3 </span>
 		<span class="inline text-white text-3xl sm:text-6xl">เพราะ </span>
 
 		<div class="flex flex-row">
@@ -39,8 +37,8 @@
 				<li class="text-green-500">✅สี Navy Blue สวย</li>
 				<li class="text-green-500">✅ทุกสีสวยหมดเลย</li>
 				<li class="text-green-500">✅แต่ผมชอบ Navy Blue มากที่สุด</li>
-				<li class="text-green-500">✅สามารถ remap ปุ่มได้ง่ายผ่านซอฟ์แวร์</li>
-				<li class="text-green-500">✅ดูหรูหรา กิ๊บเก๋ยูเรก้า</li>
+				<li class="text-green-500">✅อยากได้</li>
+				<li class="text-green-500">✅อยากได้ อยากได้</li>
 			</ul>
 		</div>
 		<h1 class="text-6xl text-white">เพราะฉะนั้นผมขอนะฮะ อยากได้มากๆ</h1>
