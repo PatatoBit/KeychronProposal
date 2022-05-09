@@ -1,10 +1,3 @@
-## This project is created with SvelteKit and TailwindCSS
+## This project is participating in the [Keychron Q2 and Q3 Giveaway](https://www.facebook.com/keychronthailand/posts/1202879940489146)
 
-# How
-```
-git clone [this repo]
-npm i
-npm run dev
-```
-
-> Note: change the "name" in the package.json to your desired name too
+I will update this repo (if I remember) when I win in or not. Wish me luck!
