@@ -27,7 +27,16 @@
 			in:fly={{ x: 500, y: 100, duration: 1000, delay: 0 }}
 			class="flex text-orange-500 text-6xl"
 		>
-			ผมอยากได้คีย์บอร์ด Keychron <span class="text-blue-400"> Q2 </span> เพราะ
+			ผมอยากได้คีย์บอร์ด
+		</div>
+		<div in:fly={{ x: 500, y: 100, duration: 1000, delay: 0 }} class="flex text-blue-500 text-6xl">
+			Keychron Q2
+		</div>
+		<div
+			in:fly={{ x: 500, y: 100, duration: 1000, delay: 0 }}
+			class="flex text-orange-500 text-6xl"
+		>
+			เพราะ
 		</div>
 	{/if}
 
@@ -41,7 +50,7 @@
 					✅Keycap hot swappable สามารถเปลี่ยนไปคีย์อะไรก็ได้เองตามใจชอบ
 				</li>
 				<li class="text-green-500">✅ใช้ได้ทั้ง MacOS และ Windows</li>
-				<li class="text-green-500">✅สามารถ remap ปุ่มได้ง่ายผ่านซอฟ์แวร์</li>
+				<li class="text-green-500">✅สามารถ remap ปุ่มได้ง่ายผ่านซอฟต์แวร์</li>
 				<li class="text-green-500">✅ดูหรูหรา กิ๊บเก๋ยูเรก้า</li>
 				<li class="text-green-500">✅เสียงดี สบายหู อย่างกับฟังเพลง</li>
 				<li class="text-green-500">✅9arm ใช้</li>
